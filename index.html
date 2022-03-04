@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1> Las siguientes personas tienen perros en la guarderia</h1>
+        <ul>
+            <li>Jose Luis</li>
+            <li>Maria</li>
+            <li>Franco</li>
+            <li>Carlos</li>
+            <li>Maximo</li>
+        </ul>
+    </div>
+    <div>
+        <h4>
+            Precios por hora = 200$
+        </h4>
+        <h5>
+            Se le cobrara un costo extra de 200$ si su perro hace una estadia de  8 horas o mas
+        </h5>
+    </div>
+    <div class="row" id="fila" >
+        <div class="row mt-5 mb-3 text-center">
+            <p class="h1">Registre a su mascota</p>
+        </div>
+        <form class="d-flex flex-column align-items-center" id="register">
+            <div class="col-lg-3 ">
+              <label for="exampleInputEmail1" class="form-label">Su nombre</label>
+              <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+            </div>
+            <div class="col-lg-3 ">
+                <label for="exampleInputEmail1" class="form-label">El nombre de su mascota</label>
+                <input type="text" class="form-control" id="petname" aria-describedby="emailHelp">
+              </div>
+              <div class="col-lg-3 ">
+                <label for="exampleInputEmail1" class="form-label">Raza de su mascota</label>
+                <input type="text" class="form-control" id="race" aria-describedby="emailHelp">
+              </div>
+            <div class="col-lg-3 pb-3">
+              <label for="exampleInputPassword1" class="form-label">Edad de su mascota</label>
+              <input type="text" class="form-control" id="age">
+            </div>
+            <button type="submit" class="btn btn-secondary mt-4" id="submit">Registrar a mi mascota</button>
+          </form>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
